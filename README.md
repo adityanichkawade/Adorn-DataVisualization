@@ -7,6 +7,7 @@ Currently data visualization part is starting with charts from basic charts and 
 Sample Example
 
 Step 1. Adding the script
+
     <head>
         <script src="Adorn.js"></script>
     </head>
