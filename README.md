@@ -9,7 +9,7 @@ Sample Example
 Step 1. Adding the script
     <head>
         <script src="Adorn.js"></script>
-  
+    </head>
 Step 2. Example of Line chart
             
      <script>
@@ -43,9 +43,11 @@ Step 2. Example of Line chart
             canvas.redraw();
         }
     </script>
-    </head>
    
 Step 3. Load
+    
     <body onload="load()">
         <div id="canvasDiv" style="background-color: whitesmoke; border: solid 1px black; width: 100%; height: 400px"></div>
     </body>
+
+  
