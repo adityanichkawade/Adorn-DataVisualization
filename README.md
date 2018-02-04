@@ -10,14 +10,15 @@ Step 1. Adding the script
     <head>
         <script src="Adorn.js"></script>
   
-Step 2. Library
-    <script>
-        function load() {
+Step 2. Example of Line chart
+            
+     <script>
+     function load() {
             var simpleChart =  new Adorn.LineChart({
                 data: [[1000, 5], [1500, 10], [3500, 90], [2500, 80], [4500, 95]]
             });
-            
-            var canvas = new Adorn.Graph({
+    
+        var canvas = new Adorn.Graph({
                 div: document.getElementById('canvasDiv'), //Div on which charting to be rendered
                 margin: new Adorn.Margin(300, 50, 300, 50),
                 xAxis: {
